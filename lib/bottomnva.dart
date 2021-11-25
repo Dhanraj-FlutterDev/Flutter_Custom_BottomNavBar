@@ -54,14 +54,14 @@ class _BottomNavState extends State<BottomNav> with TickerProviderStateMixin {
                   Tab(
                     iconMargin: EdgeInsets.only(bottom: 4),
                     icon: selectedIndex == 0
-                        ? Icon(Icons.home)
-                        : Icon(Icons.home_mini),
-                    child: Text(
+                        ? const Icon(Icons.home)
+                        : const Icon(Icons.home_mini),
+                    child: const Text(
                       'Home',
                       style: TextStyle(fontSize: 12),
                     ),
                   ),
-                  Tab(
+                  const Tab(
                     iconMargin: EdgeInsets.only(bottom: 4),
                     icon: Icon(Icons.person),
                     child: Text(
@@ -69,7 +69,7 @@ class _BottomNavState extends State<BottomNav> with TickerProviderStateMixin {
                       style: TextStyle(fontSize: 12),
                     ),
                   ),
-                  Tab(
+                  const Tab(
                     iconMargin: EdgeInsets.only(bottom: 4),
                     icon: Icon(Icons.info),
                     child: Text(
@@ -77,7 +77,7 @@ class _BottomNavState extends State<BottomNav> with TickerProviderStateMixin {
                       style: TextStyle(fontSize: 12),
                     ),
                   ),
-                  Tab(
+                  const Tab(
                     iconMargin: EdgeInsets.only(bottom: 4),
                     icon: Icon(Icons.settings),
                     child: Text(
